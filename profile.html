@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html {
+  scroll-behavior: smooth;
+}
+    .work-card{
+        width: 250px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .work-card:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+          }
+          
+  @keyframes oscillate {
+    0%, 100% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+  }
+
+  .animate-oscillate {
+    animation: oscillate 2s ease-in-out infinite;
+    transform-origin: top center;
+  }
+
+
+</style>
+</head>
+<body class="bg-blue-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto py-4 px-6 flex justify-center">
+            <!-- <h1 class="text-xl font-bold">H.</h1> -->
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="text-gray-700 hover:text-blue-500">Home</a></li>
+                    <li><a href="#about" class="text-gray-700 hover:text-blue-500">About</a></li>
+                    <li><a href="#skill" class="text-gray-700 hover:text-blue-500">Skill</a></li>
+                    <li><a href="#work" class="text-gray-700 hover:text-blue-500">Work</a></li>
+                    <li><a href="#Experience" class="text-gray-700 hover:text-blue-500">Experience</a></li>
+                    <li><a href="#contact" class="text-gray-700 hover:text-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto flex items-center justify-between py-12 px-6 border bg-white top-30" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-top: 200px;">
+        <div>
+            <h2 class="text-4xl font-bold mb-4">Hi, I am <span class="text-blue-500">Anshu Anand</span></h2>
+            <p class="text-black mb-6">Frontend Developer!</p>
+            <p class="text-black mb-6">  I am a passionate frontend developer with expertise in crafting intuitive and visually appealing web interfaces. With a strong focus on creating seamless user experiences, I specialize in transforming ideas into interactive and responsive designs. Leveraging modern technologies like HTML, CSS, JavaScript, and frameworks, I ensure performance, accessibility, and functionality go hand in hand.
+            </p>
+            <div class="space-x-4 mb-8 mt-20">
+                <a href="https://drive.google.com/file/d/1N0qD3CDWQALuse7tbfAsVP-RM7haORt0/view?usp=sharing" download class="bg-blue-500 text-white px-6 py-2 rounded shadow hover:bg-blue-600">
+                    Download CV
+                  </a>               
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- About Me Section -->
+    <section class="container mx-auto py-12 px-6" id="about" style="margin-top: 5%;">
+        <h2 class="text-3xl font-bold mb-8">About Me</h2>
+        <div class="gap-8">
+            <div>
+                <p class="text-gray-600 mb-4">Versatile frontend developer skilled in building responsive, user-friendly interfaces with <span class="text-xl text-black">JavaScript</span>, <span class="text-xl text-black">React.js</span>, <span class="text-xl text-black">HTML</span>, and
+                    <span class="text-xl text-black"> CSS </span>. Experienced in designing pages with <span class="text-xl text-black"> Figma </span>, conducting thorough testing, and optimizing performance to ensure quality.
+                    Proficient in automated testing using <span class="text-xl text-black">Robot</span> Framework with expertise in the Browser library. Passionate about delivering
+                    seamless user experiences and modern web solutions.</p>
+                    <div style="display: flex; justify-content: space-evenly;">
+                        <!-- Name -->
+                        <div class="relative mb-8 flex flex-col items-center">
+                          <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
+                            Name
+                          </div>
+                          <!-- Chain -->
+                          <div class="w-1 h-10 bg-gray-300"></div>
+                          <!-- Oscillating Value -->
+                          <div
+                            class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
+                            Anshu Anand
+                          </div>
+                        </div>
+                      
+                        <!-- Phone -->
+                        <div class="relative mb-8 flex flex-col items-center">
+                          <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
+                            Phone
+                          </div>
+                          <!-- Chain -->
+                          <div class="w-1 h-10 bg-gray-300"></div>
+                          <!-- Oscillating Value -->
+                          <div
+                            class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
+                            9880627154
+                          </div>
+                        </div>
+                      
+                        <!-- Email -->
+                        <div class="relative flex flex-col items-center">
+                          <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
+                            Email
+                          </div>
+                          <!-- Chain -->
+                          <div class="w-1 h-10 bg-gray-300"></div>
+                          <!-- Oscillating Value -->
+                          <div
+                            class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
+                            anshu.anand12345@gmail.com
+                          </div>
+                        </div>
+                      </div>
+                      
+                <h3 class="text-xl font-bold mb-4 mt-8">My Interests</h3>
+                <div class="flex space-x-4">
+                    <span class="bg-blue-100 text-blue-500 px-4 py-2 rounded">Music</span>
+                    <span class="bg-blue-100 text-blue-500 px-4 py-2 rounded">Travel</span>
+                    <span class="bg-blue-100 text-blue-500 px-4 py-2 rounded">Movie</span>
+                    <span class="bg-blue-100 text-blue-500 px-4 py-2 rounded">Cricket</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="bg-white py-12" id="skill">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Why Choose Me</h2>
+              <h5 class="text-xl font-bold mb-8 text-center text-blue-500">Language</h5>
+            <div class="flex justify-between">
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/html.png" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">HTML</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/css.png" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">CSS</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/js.png" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">JavaScript</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/python.png" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">Python</h5>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <h5 class="text-xl font-bold mb-8 text-center text-blue-500 mt-8">Frameworks</h5>
+            <div class="flex justify-between">
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/react.jpg" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">React</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/bootstrap.jpeg" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">Bootstrap</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/tailwind.png" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">Tailwind Css</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="work-card">
+                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/playwright.png" alt="Card image cap">
+                        <div class="p-4">
+                          <h5 class="text-3xl font-semibold mb-2 text-center">Playwright</h5>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Experience Section -->
+     <section class="container mx-auto py-12 px-6" id="Experience">
+        <h2 class="text-3xl font-bold mb-8 text-center">My Experience</h2>
+        <div style="display: flex; justify-content: space-between;">
+            <h2 class="text-2xl font-bold mb-2 text-blue-500">Xten Networks</h2>
+           <h2 class="text-lg mb-2 text-gray-600"> April, 2023 - Present </h2>
+        </div>
+
+        <div class="border">
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       <span class="text-2xl text-blue-500"> Website Development </span>               
+                    </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="list-disc list-inside space-y-2">
+                        <li>Designed and developed the official website for XTEN NETWORKS, a cybersecurity firm specializing in proactive defense against cyber threats.</li>
+                          <li>Utilized <strong>HTML</strong>, <strong>Tailwind CSS</strong>, and <strong>JavaScript</strong> to create a responsive design and interactive elements.</li>
+                          <li>Created the user interface using <strong>Figma</strong> for clean and modern design aesthetics.</li>
+                          <li>Implemented a responsive navigation bar and visually appealing sections, such as "Our Values," "Our Goals," and "What We Do."</li>
+                          <li>Developed a structured footer with essential company links, contact details, and quick access resources.</li>
+                          <li>Focused on delivering a user-friendly experience with optimized performance and cross-device compatibility.</li>
+                          <li>Conducted thorough testing to ensure responsiveness, functionality, and seamless user interactions.</li>
+                          <li>Collaborated with stakeholders to align the website's design and functionality with business goals.</li>
+                      </ul>            
+                      </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span class="text-2xl text-blue-500"> Dashboard Development </span>               
+                    </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="list-disc list-inside space-y-2">
+                        <li>Developed a <strong>Cybersecurity Threat Monitoring Dashboard</strong>, enabling visualization of real-time threats on monitored networks.</li>
+                        <li>Designed and implemented interactive <strong>charts</strong>, <strong>graphs</strong>, and a <strong>filterable table</strong> to efficiently manage and analyze specific threats.</li>
+                        <li>Added a <strong>Device Addition</strong> page to facilitate seamless integration of new devices into the system.</li>
+                        <li>Created a <strong>Policy Application</strong> page for easy management and implementation of security policies.</li>
+                        <li>Ensured <strong>responsiveness</strong> and <strong>scalability</strong> to handle large datasets and provide a smooth user experience across various devices.</li>
+                        <li>Utilized <strong>HTML</strong>, <strong>Tailwind CSS</strong>, and <strong>JavaScript</strong> to build dynamic visualizations and an intuitive, user-friendly interface.</li>
+                        <li>Performed <strong>automation testing</strong> using the <strong>Robot Framework</strong>, ensuring seamless functionality and reliability across features.</li>
+                        <li>Created automated test cases leveraging the Robot Framework's <strong>Browser library</strong> for efficient end-to-end testing of dashboard functionalities.</li>
+                        <li>Optimized performance to ensure fast loading, smooth interactions, and cross-browser compatibility.</li>
+                    </ul>
+
+                    </div>
+                  </div>
+                </div>
+            
+              </div>
+        </div>
+    </section>
+
+
+    <!-- Blog Section -->
+    <section class="container mx-auto py-12 px-6" id="work">
+        <h2 class="text-3xl font-bold mb-8 text-center">My Work</h2>
+        <div class="grid grid-cols-2 gap-6">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
+                <a href="https://www.xtennetworks.com/" class="block">
+                    <div class="relative w-full h-full">
+                        <img src="img_pdf/website.png" alt="Blog Post" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 text-white font-bold text-xl">
+                            Click
+                        </div>
+                    </div>
+                </a>
+                <div class="p-4 flex justify-center items-center">
+                    <h3 class="text-lg font-bold text-gray-700 text-center">Xten Network Website</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
+                <a href="images.html" class="block">
+                    <div class="relative w-full h-full">
+                        <img src="img_pdf/xten.png" alt="Blog Post" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 text-white font-bold text-xl">
+                            Click
+                        </div>
+                    </div>
+                </a>
+                <div class="p-4 flex justify-center items-center">
+                    <h3 class="text-lg font-bold text-gray-700 text-center"> Xten Network Dashboard</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <!-- Blog Section -->
+      <section class="container mx-auto py-12 px-6" id="work">
+        <h2 class="text-3xl font-bold mb-8 text-center">My Previous Work</h2>
+        <div class="grid grid-cols-2 gap-6">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
+                <a href="prevwork.html" class="block">
+                    <div class="relative w-full h-full">
+                        <img src="img_pdf/netflix1.png" alt="Blog Post" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 text-white font-bold text-xl">
+                            Click
+                        </div>
+                    </div>
+                </a>
+                <div class="p-4 flex justify-center items-center">
+                    <h3 class="text-lg font-bold text-gray-700 text-center">Netflix clone</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
+                <a href="https://anshuanand12345.github.io/PG/" class="block">
+                    <div class="relative w-full h-full">
+                        <img src="img_pdf/pg.png" alt="Blog Post" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 text-white font-bold text-xl">
+                            Click
+                        </div>
+                    </div>
+                </a>
+                <div class="p-4 flex justify-center items-center">
+                    <h3 class="text-lg font-bold text-gray-700 text-center"> PG App</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section class="bg-white py-12" id="contact">
+        <div class="container mx-auto gap-8">
+            
+                <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
+               
+            
+            <div class="flex justify-between">
+                <div>
+                    <h3 class="text-lg font-bold"> <i class="fa fa-phone" style="font-size:20px"></i>
+                        <span class="ml-2"> Call Me </span></h3>
+                    <p class="text-2xl">9880627154</p> 
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold"> <i class="fa fa-envelope" style="font-size:20px"></i>
+                        <span class="ml-2"> Email </span></h3>
+                    <a href="https://mail.google.com/mail/u/0/#inbox" class="text-2xl">anshu.anand12345@gmail.com</a>
+
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold"> <i class="fa fa-map-marker" style="font-size:20px"></i>
+                        <span class="ml-2"> Location </span></h3>
+                    <p class="text-2xl">Bengaluru </p> 
+                </div>
+            </div>
+
+            <div class="flex justify-center space-x-4 mt-8">
+                
+                <a href="https://www.linkedin.com/in/anshu-anand-40928783/" class="hover:text-blue-500 text-black"> <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                   <span class="ml-2">LinkedIn</span> </a>
+
+                   <a href="https://github.com/anshuanand12345" class="hover:text-blue-500 text-black"> <i class="fa fa-github" style="font-size:24px"></i>
+
+                    <span class="ml-2">Github</span> </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6">
+        <div class="container mx-auto text-center text-white">
+            <p class="mb-4">© All Rights Reserved</p>
+          
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
