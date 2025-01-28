@@ -42,7 +42,7 @@
         <div class="container mx-auto py-4 px-6 flex justify-center">
             <!-- <h1 class="text-xl font-bold">H.</h1> -->
             <nav>
-                <ul class="flex space-x-6">
+                <ul class="flex space-x-3 md:space-x-8">
                     <li><a href="#" class="text-gray-700 hover:text-blue-500">Home</a></li>
                     <li><a href="#about" class="text-gray-700 hover:text-blue-500">About</a></li>
                     <li><a href="#skill" class="text-gray-700 hover:text-blue-500">Skill</a></li>
@@ -55,8 +55,8 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="container mx-auto flex items-center justify-between py-12 px-6 border bg-white top-30" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-top: 200px;">
-        <div>
+    <section class="container mx-auto flex items-center justify-between py-12 px-6 border bg-white top-30 shadow-lg" style="margin-top: 20%;" md:style="margin-top: 12%;">
+      <div>
             <h2 class="text-4xl font-bold mb-4">Hi, I am <span class="text-blue-500">Anshu Anand</span></h2>
             <p class="text-black mb-6">Frontend Developer!</p>
             <p class="text-black mb-6">  I am a passionate frontend developer with expertise in crafting intuitive and visually appealing web interfaces. With a strong focus on creating seamless user experiences, I specialize in transforming ideas into interactive and responsive designs. Leveraging modern technologies like HTML, CSS, JavaScript, and frameworks, I ensure performance, accessibility, and functionality go hand in hand.
@@ -81,49 +81,47 @@
                     <span class="text-xl text-black"> CSS </span>. Experienced in designing pages with <span class="text-xl text-black"> Figma </span>, conducting thorough testing, and optimizing performance to ensure quality.
                     Proficient in automated testing using <span class="text-xl text-black">Robot</span> Framework with expertise in the Browser library. Passionate about delivering
                     seamless user experiences and modern web solutions.</p>
-                    <div style="display: flex; justify-content: space-evenly;">
-                        <!-- Name -->
-                        <div class="relative mb-8 flex flex-col items-center">
-                          <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
-                            Name
-                          </div>
-                          <!-- Chain -->
-                          <div class="w-1 h-10 bg-gray-300"></div>
-                          <!-- Oscillating Value -->
-                          <div
-                            class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
-                            Anshu Anand
-                          </div>
+                    <div class="flex flex-col md:flex-row justify-evenly">
+                      <!-- Name -->
+                      <div class="relative mb-8 flex flex-col items-center">
+                        <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
+                          Name
                         </div>
-                      
-                        <!-- Phone -->
-                        <div class="relative mb-8 flex flex-col items-center">
-                          <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
-                            Phone
-                          </div>
-                          <!-- Chain -->
-                          <div class="w-1 h-10 bg-gray-300"></div>
-                          <!-- Oscillating Value -->
-                          <div
-                            class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
-                            9880627154
-                          </div>
-                        </div>
-                      
-                        <!-- Email -->
-                        <div class="relative flex flex-col items-center">
-                          <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
-                            Email
-                          </div>
-                          <!-- Chain -->
-                          <div class="w-1 h-10 bg-gray-300"></div>
-                          <!-- Oscillating Value -->
-                          <div
-                            class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
-                            anshu.anand12345@gmail.com
-                          </div>
+                        <!-- Chain -->
+                        <div class="w-1 h-10 bg-gray-300"></div>
+                        <!-- Oscillating Value -->
+                        <div class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
+                          Anshu Anand
                         </div>
                       </div>
+                    
+                      <!-- Phone -->
+                      <div class="relative mb-8 flex flex-col items-center">
+                        <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
+                          Phone
+                        </div>
+                        <!-- Chain -->
+                        <div class="w-1 h-10 bg-gray-300"></div>
+                        <!-- Oscillating Value -->
+                        <div class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
+                          9880627154
+                        </div>
+                      </div>
+                    
+                      <!-- Email -->
+                      <div class="relative flex flex-col items-center">
+                        <div class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg shadow-md">
+                          Email
+                        </div>
+                        <!-- Chain -->
+                        <div class="w-1 h-10 bg-gray-300"></div>
+                        <!-- Oscillating Value -->
+                        <div class="bg-gray-100 text-gray-700 font-medium px-6 py-2 rounded-lg border shadow-md animate-oscillate text-2xl">
+                          anshu.anand12345@gmail.com
+                        </div>
+                      </div>
+                    </div>
+                    
                       
                 <h3 class="text-xl font-bold mb-4 mt-8">My Interests</h3>
                 <div class="flex space-x-4">
@@ -141,43 +139,48 @@
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-8 text-center">Why Choose Me</h2>
               <h5 class="text-xl font-bold mb-8 text-center text-blue-500">Language</h5>
-            <div class="flex justify-between">
-                <div class="work-card">
-                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
-                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/html.png" alt="Card image cap">
-                        <div class="p-4">
-                          <h5 class="text-3xl font-semibold mb-2 text-center">HTML</h5>
-                        </div>
-                      </div>
+              <div class="flex flex-col md:flex-row justify-center md:justify-evenly items-center">
+                <div class="work-card mt-4 md:mt-0">
+                  <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover bg-white" src="img_pdf/html.png" alt="Card image cap">
+                    <div class="p-4">
+                      <h5 class="text-3xl font-semibold mb-2 text-center">HTML</h5>
+                    </div>
+                  </div>
                 </div>
-                <div class="work-card">
-                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
-                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/css.png" alt="Card image cap">
-                        <div class="p-4">
-                          <h5 class="text-3xl font-semibold mb-2 text-center">CSS</h5>
-                        </div>
-                      </div>
+              
+                <div class="work-card mt-4 md:mt-0">
+                  <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover bg-white" src="img_pdf/css.png" alt="Card image cap">
+                    <div class="p-4">
+                      <h5 class="text-3xl font-semibold mb-2 text-center">CSS</h5>
+                    </div>
+                  </div>
                 </div>
-                <div class="work-card">
-                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
-                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/js.png" alt="Card image cap">
-                        <div class="p-4">
-                          <h5 class="text-3xl font-semibold mb-2 text-center">JavaScript</h5>
-                        </div>
-                      </div>
+              
+                <div class="work-card mt-4 md:mt-0">
+                  <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover bg-white" src="img_pdf/js.png" alt="Card image cap">
+                    <div class="p-4">
+                      <h5 class="text-3xl font-semibold mb-2 text-center">JavaScript</h5>
+                    </div>
+                  </div>
                 </div>
-                <div class="work-card">
-                    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
-                        <img class="w-full h-48 object-cover bg-white" src="img_pdf/python.png" alt="Card image cap">
-                        <div class="p-4">
-                          <h5 class="text-3xl font-semibold mb-2 text-center">Python</h5>
-                        </div>
-                      </div>
+              
+                <div class="work-card mt-4 md:mt-0">
+                  <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover bg-white" src="img_pdf/python.png" alt="Card image cap">
+                    <div class="p-4">
+                      <h5 class="text-3xl font-semibold mb-2 text-center">Python</h5>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
+              
+              
             <h5 class="text-xl font-bold mb-8 text-center text-blue-500 mt-8">Frameworks</h5>
-            <div class="flex justify-between">
-                <div class="work-card">
+            <div class="flex flex-col md:flex-row justify-center md:justify-evenly items-center">
+                <div class="work-card mt-4 md:mt-0">
                     <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
                         <img class="w-full h-48 object-cover bg-white" src="img_pdf/react.jpg" alt="Card image cap">
                         <div class="p-4">
@@ -185,7 +188,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="work-card">
+                <div class="work-card mt-4 md:mt-0">
                     <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
                         <img class="w-full h-48 object-cover bg-white" src="img_pdf/bootstrap.jpeg" alt="Card image cap">
                         <div class="p-4">
@@ -193,7 +196,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="work-card">
+                <div class="work-card mt-4 md:mt-0">
                     <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
                         <img class="w-full h-48 object-cover bg-white" src="img_pdf/tailwind.png" alt="Card image cap">
                         <div class="p-4">
@@ -201,7 +204,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="work-card">
+                <div class="work-card mt-4 md:mt-0">
                     <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
                         <img class="w-full h-48 object-cover bg-white" src="img_pdf/playwright.png" alt="Card image cap">
                         <div class="p-4">
@@ -281,8 +284,8 @@
     <!-- Blog Section -->
     <section class="container mx-auto py-12 px-6" id="work">
         <h2 class="text-3xl font-bold mb-8 text-center">My Work</h2>
-        <div class="grid grid-cols-2 gap-6">
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
                 <a href="https://www.xtennetworks.com/" class="block">
                     <div class="relative w-full h-full">
                         <img src="img_pdf/website.png" alt="Blog Post" class="w-full h-full object-cover">
@@ -315,8 +318,8 @@
       <!-- Blog Section -->
       <section class="container mx-auto py-12 px-6" id="work">
         <h2 class="text-3xl font-bold mb-8 text-center">My Previous Work</h2>
-        <div class="grid grid-cols-2 gap-6">
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden relative group">
                 <a href="prevwork.html" class="block">
                     <div class="relative w-full h-full">
                         <img src="img_pdf/netflix1.png" alt="Blog Post" class="w-full h-full object-cover">
@@ -353,24 +356,30 @@
                 <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
                
             
-            <div class="flex justify-between">
-                <div>
-                    <h3 class="text-lg font-bold"> <i class="fa fa-phone" style="font-size:20px"></i>
-                        <span class="ml-2"> Call Me </span></h3>
-                    <p class="text-2xl">9880627154</p> 
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold"> <i class="fa fa-envelope" style="font-size:20px"></i>
-                        <span class="ml-2"> Email </span></h3>
+                <div class="flex flex-col md:flex-row md:justify-between items-center md:items-start mt-2.5 md:mt-0 text-center md:text-left">
+                  <div class="mt-2.5 md:mt-0">
+                    <h3 class="text-lg font-bold flex items-center justify-center md:justify-start">
+                      <i class="fa fa-phone" style="font-size:20px"></i>
+                      <span class="ml-2">Call Me</span>
+                    </h3>
+                    <p class="text-2xl">9880627154</p>
+                  </div>
+                  <div class="mt-2.5 md:mt-0">
+                    <h3 class="text-lg font-bold flex items-center justify-center md:justify-start">
+                      <i class="fa fa-envelope" style="font-size:20px"></i>
+                      <span class="ml-2">Email</span>
+                    </h3>
                     <a href="https://mail.google.com/mail/u/0/#inbox" class="text-2xl">anshu.anand12345@gmail.com</a>
-
+                  </div>
+                  <div class="mt-2.5 md:mt-0">
+                    <h3 class="text-lg font-bold flex items-center justify-center md:justify-start">
+                      <i class="fa fa-map-marker" style="font-size:20px"></i>
+                      <span class="ml-2">Location</span>
+                    </h3>
+                    <p class="text-2xl">Bengaluru</p>
+                  </div>
                 </div>
-                <div>
-                    <h3 class="text-lg font-bold"> <i class="fa fa-map-marker" style="font-size:20px"></i>
-                        <span class="ml-2"> Location </span></h3>
-                    <p class="text-2xl">Bengaluru </p> 
-                </div>
-            </div>
+                
 
             <div class="flex justify-center space-x-4 mt-8">
                 
